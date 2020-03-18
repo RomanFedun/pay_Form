@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RomanFedun testing</title>
+    
+    <link rel="stylesheet" href="dist/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <main class="own">
+            <form action="" name="ourForm1">
+                <div class=" main">
+                    <section class="title">
+                        <h3>Fill in the form</h3>
+                    </section>
+                </div>
+                <div class="main">
+                    <section class="column">
+                        <div class="wrap">
+                            <div class="double">
+                                <div class="grope-left">
+                                    <label for="fname">Name</label>
+                                    <input type="text" name="first-name">
+                                </div>
+                                <div class="grope-right">
+                                    <label for="sur">Surname</label>
+                                    <input type="text" name="surname">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="after" id="comp">
+                                <div class="groupe" id="company">
+                                    <label for=" company">Company name</label>
+                                    <input type="text" name="comp-name">
+                                </div>
+                                <label for="add" id="add">+ Add logo</label>
+                                <input type="file" id="getFile" accept="image/*" style="display:none">
+
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="groupe">
+                                <label for="email" id="lab">Email</label>
+                                <div class="input_container">
+                                    <input type="email" id="input" value>
+                                    <div id="input_img">
+                                        <i class="fa fa-envelope-o fa-2x"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="groupe">
+                                <label for="phone">Phone number</label>
+                                <input type="text" name="phone">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="column">
+                        <div class="wrap">
+                            <div class="groupe">
+                                <label for="company">Country</label>
+                                <select name="country">
+                                    <option value=""></option>
+                                    <option value="UK">UK</option>
+                                    <option value="Ukraine">Ukraine</option>
+                                    <option value="USA">USA</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="double">
+                                <div class="grope-left">
+                                    <label for="city">City</label>
+                                    <input type="text" name="city">
+                                </div>
+                                <div class="grope-right">
+                                    <label for="index">Postal code</label>
+                                    <input type="text" name="index">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="groupe">
+                                <label for="address">Address</label>
+                                <input type="text" name="address">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="check">
+                                <input type="checkbox" name="check">
+                                <label class="after"> I accept Terms and Services</label>
+                            </div>
+                        </div>
+                    </section>
+
+
+                </div>
+                <div class="main-down">
+                    <section class="title">
+                        <h3>Shipping & billing details</h3><br>
+                        <h5>You can change the shipping method</h5>
+                    </section>
+                    <section class="under">
+                        <div class="first">
+                            <div id="truck" class="method">
+                                <!-- <div class="icon1"> -->
+                                <i class="fa fa-truck fa-1x"></i>
+                                <!-- </div> -->
+                                <div class="icon">
+                                    <h4>Standard</h4>
+                                    <label for="truck">5$ in 10 days</label>
+                                </div>
+                            </div>
+                            <div class="method">
+                                <!-- <div class="icon1"> -->
+                                <i class="fa fa-plane fa-1x"></i>
+                                <!-- </div> -->
+                                <div class="icon">
+                                    <h4>Express</h4>
+                                    <label for="plane">25$ in5 days</label>
+                                </div>
+                            </div>
+                            <div class="method">
+                                <!-- <div class="icon1"> -->
+                                <i class="fa fa-rocket fa-1x"></i>
+                                <!-- </div> -->
+                                <div class="icon">
+                                    <h4>Premium</h4>
+                                    <label for="rocket">50$ for tomorrow</label>
+                                </div>
+                            </div>
+                        </div>
+                        <main class="down2">
+                            <div class="second">
+                                <div class="method-title">
+                                    <label for="pay-method">Payment method</label>
+                                </div>
+                                <section class="pay-method">
+
+                                    <div class="cards-item">
+                                        <div class="cards">
+                                            <img class="img" src="img/amex.png" alt="">
+                                        </div>
+                                        <div class="cards">
+                                            <img class="img" src="img/Mastercard-logo.png" alt="">
+                                        </div>
+                                        <div class="cards">
+                                            <img class="img" src="img/visa-icon3.png" alt="">
+                                        </div>
+                                        <div class="cards">
+                                            <img class="img" src="img/discover_2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="logo-groupe">
+                                        <div class="pay-pal">
+                                            <img class="img2" src="img/paypal_gray.png" alt="">
+                                        </div>
+                                        <div class="pay-pal">
+                                            <img class="img2" src="img/amazon.png" alt="">
+                                        </div>
+                                    </div>
+                                </section>
+
+                            </div>
+
+                            <div class="second">
+                                <div id="c-detail" class="method-title">
+                                    <label for="pay-method">Card details</label>
+                                </div>
+                                <div class="cards-details">
+                                    <div class="groupe-down">
+                                        <label for="">Card number</label>
+                                        <div class="input4">
+                                            <input class="inside" type="number" name="in1" pattern="/^-?\d+\.?\d*$/"
+                                                disabled>
+
+                                            <input class="inside" id="inside-l" type="number" min="0" name="in2"
+                                                pattern="/^-?\d+\.?\d*$/" disabled>
+
+                                            <input class="inside" id="inside-r" type="number" name="in3"
+                                                pattern="/^-?\d+\.?\d*$/" disabled>
+
+                                            <input class="inside" type="number" name="in4" pattern="/^-?\d+\.?\d*$/"
+                                                disabled>
+
+                                        </div>
+                                    </div>
+                                    <div class="groupe-down-l">
+                                        <div class="grope-r">
+                                            <label for="">Expiration date</label>
+                                            <input id="date" type="text" maxlength='5' placeholder="NN/YY" disabled>
+                                        </div>
+                                        <div class="grope-l">
+                                            <label for="">CVC/CVV</label>
+                                            <input id="cvc" type="number" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                    </section>
+                </div>
+                <button class="sub" type="submit">SUBMIT</button>
+            </form>
+        </main>
+
+    </div>
+
+    <script src="dist/app.js"></script>
+
+</body>
+
+</html>
